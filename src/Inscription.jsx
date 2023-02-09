@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './Inscription.css'
 
 function Inscription() {
@@ -40,21 +41,22 @@ function Inscription() {
       <form onSubmit={handleSubmit}>
         <h2>👋 Welcome</h2>
         <div className="info">
-          <label>Nom</label>
-          <input
-            type="text"
-            id="nom"
-            name="nom"
-            value={nom}
-            onChange={e => setNom(e.target.value)}
-          />
-          <label>Prenom</label>
+         
+          <label>F.name</label>
           <input
             type="text"
             id="prenom"
             name="prenom"
             value={prenom}
             onChange={e => setPrenom(e.target.value)}
+          />
+           <label>Name</label>
+          <input
+            type="text"
+            id="nom"
+            name="nom"
+            value={nom}
+            onChange={e => setNom(e.target.value)}
           />
         </div>
         <div className="infoS">
@@ -77,6 +79,10 @@ function Inscription() {
         </div>
         {error && <p style={{ color: 'red' }}>{error}</p>}
         <button type="submit">Sign up</button>
+        <div className="ba">
+        <h4>Already have an account!</h4>
+        <Link to="/"><p>Login</p></Link>
+        </div>
       </form>
     </div>
   )

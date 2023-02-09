@@ -1,7 +1,7 @@
-body{
+.container{
     background-color:#314371;
     text-align: center;
-}
+  }
   h3{
     color: white;
     font-family: 'Lexend Tera', sans-serif;
@@ -29,7 +29,7 @@ body{
     color: #F5F5F5;
     font-family: 'Lexend Tera', sans-serif;
   }
-  label{
+  .label{
     font-family: 'Lexend Tera', sans-serif;
     color: #314371;
     padding-right: 0.5%;
@@ -47,13 +47,13 @@ body{
     font-family: 'Lexend Tera', sans-serif;
     margin-right: 2pc;
     padding-top:10px;
-  
+   
   }
   .bo{
     display:flex;
     justify-content: center;
   }
-  .bo a{
+  .bo p{
     color:#B816BB;
     font-family: 'Lexend Tera', sans-serif;
     text-decoration: none;
