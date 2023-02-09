@@ -8,75 +8,64 @@ function Home() {
       </div>
     <section className="layout">
         <div className="Html">
-          <div className="card-img">
-            <img src="Pictures\My project.png"/>
-          </div>
           <div className="card-title">
             <h3>HTML</h3>
           </div>
         </div>
         <div className="Html">
-          <div className="card-img-css">
-            <img src="Pictures\My project.png"/>
-          </div>
+          <div className="card-img">
+                </div>
           <div className="card-title">
             <h3>CSS</h3>
           </div>
         </div>
         <div className="Html">
           <div className="card-img">
-            <img src="Pictures\My project.png"/>
           </div>
           <div className="card-title">
-            <h3>HTML</h3>
+            <h3>JS</h3>
           </div>
         </div>
         <div className="Html">
           <div className="card-img">
-            <img src="Pictures\My project.png"/>
           </div>
           <div className="card-title">
-            <h3>HTML</h3>
+            <h3>React</h3>
           </div>
         </div>
         <div className="Html">
           <div className="card-img">
-            <img src="Pictures\My project.png"/>
           </div>
           <div className="card-title">
-            <h3>HTML</h3>
+            <h3>Php</h3>
+          </div>
+        </div>
+        <div className="Html">
+          <div className="card-img"> 
+          </div>
+          <div className="card-title">
+            <h3>My SQL</h3>
           </div>
         </div>
         <div className="Html">
           <div className="card-img">
-            <img src="Pictures\My project.png"/>
           </div>
           <div className="card-title">
-            <h3>HTML</h3>
+            <h3>Python</h3>
           </div>
         </div>
         <div className="Html">
           <div className="card-img">
-            <img src="Pictures\My project.png"/>
           </div>
           <div className="card-title">
-            <h3>HTML</h3>
+            <h3>MongoDB</h3>
           </div>
         </div>
         <div className="Html">
           <div className="card-img">
-            <img src="Pictures\My project.png"/>
           </div>
           <div className="card-title">
-            <h3>HTML</h3>
-          </div>
-        </div>
-        <div className="Html">
-          <div className="card-img">
-            <img src="Pictures\My project.png"/>
-          </div>
-          <div className="card-title">
-            <h3>HTML</h3>
+            <h3>TypeScript</h3>
           </div>
         </div>
     </section>
